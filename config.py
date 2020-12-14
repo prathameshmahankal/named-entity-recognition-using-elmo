@@ -1,0 +1,12 @@
+TRAIN_SIZE = 600
+TEST_SIZE = 4
+VALIDATION_SIZE = 50
+TRAIN_BATCH_SIZE = 25
+TEST_BATCH_SIZE = 2
+EPOCHS = 5
+MODEL_NAME = "https://tfhub.dev/google/elmo/3"
+# SPACY_PATH = 'C:/Users/iGuest/OneDrive - UW/Eviction Study Data/UntinkeredAnnotText/AnnotText/'
+SPACY_PATH = 'C:/Users/iGuest/OneDrive - UW/Eviction Study Data/TinkeredAnnotText/'
+SHOW_ONLY_SCORE = False
+BEST_PARAMS = 'hyperparams.p'
+BEST_MODEL = 'ner_model.h5'
